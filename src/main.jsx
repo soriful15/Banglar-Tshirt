@@ -11,6 +11,7 @@ import Main from './Componets/Layout/Main';
 import OrderReview from './Componets/OrderReview/OrderReview';
 import About from './Componets/About/About';
 import Contact from './Componets/Contact/Contact';
+import Grandpa from './Componets/Grandpa/Grandpa';
 
 
 
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path:'/contact',
         element: <Contact></Contact>,
+      },
+      {
+        path:'/grandpa',
+        element: <Grandpa></Grandpa>,
       },
     ]
   },

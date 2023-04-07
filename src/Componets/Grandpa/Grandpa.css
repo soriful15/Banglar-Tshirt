@@ -1,0 +1,17 @@
+
+/* .grandpa2{
+    text-align: center;
+} */
+
+.grandpa, .grandpa div{
+    border: 2px solid goldenrod;
+    padding: 10px;
+    margin: 20px ;
+    text-align: center;
+
+    border-radius: 10px;
+    width: fit-content;
+}
+.flex{
+    display: flex;
+}
